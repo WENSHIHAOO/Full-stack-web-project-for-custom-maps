@@ -1,0 +1,1507 @@
+<!doctype html>
+<html data-userprofile-context="{&quot;hasProfileCardAccess&quot;:true}" data-mathjax-context="{&quot;renderLatex&quot;:true,&quot;outputScale&quot;:1.5}" data-logging-endpoint="/d2l/lp/logger/provision?sessionToken=NjY4NiwyMDM0Nzc" lang="en-us" data-lang-default="en-us" data-intl-overrides="{&quot;number&quot;:{&quot;patterns&quot;:{&quot;decimal&quot;:{&quot;negativePattern&quot;:&quot;-{number}&quot;},&quot;percent&quot;:{&quot;positivePattern&quot;:&quot;{number} %&quot;,&quot;negativePattern&quot;:&quot;-{number} %&quot;}},&quot;symbols&quot;:{&quot;decimal&quot;:&quot;.&quot;,&quot;group&quot;:&quot;,&quot;,&quot;negative&quot;:&quot;-&quot;,&quot;percent&quot;:&quot;%&quot;},&quot;groupSize&quot;:[3]},&quot;date&quot;:{&quot;hour24&quot;:false,&quot;calendar&quot;:{&quot;firstDayOfWeek&quot;:0,&quot;dayPeriods&quot;:{&quot;am&quot;:&quot;AM&quot;,&quot;pm&quot;:&quot;PM&quot;},&quot;months&quot;:{&quot;short&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;,&quot;&quot;],&quot;long&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;,&quot;&quot;]},&quot;days&quot;:{&quot;short&quot;:[&quot;Sun&quot;,&quot;Mon&quot;,&quot;Tue&quot;,&quot;Wed&quot;,&quot;Thu&quot;,&quot;Fri&quot;,&quot;Sat&quot;]}},&quot;formats&quot;:{&quot;dateFormats&quot;:{&quot;short&quot;:&quot;M/d/yyyy&quot;},&quot;timeFormats&quot;:{&quot;short&quot;:&quot;h:mm tt&quot;,&quot;medium&quot;:&quot;h:mm tt&quot;,&quot;full&quot;:&quot;h:mm tt ZZZ&quot;}}}}" data-oslo="{&quot;batch&quot;:&quot;/d2l/api/oslo/1/batch&quot;,&quot;collection&quot;:&quot;/d2l/api/oslo/1/collection&quot;,&quot;version&quot;:&quot;W/\&quot;20.23.12.18824.3420478128\&quot;&quot;}" data-timezone="{&quot;name&quot;:&quot;United States - New York&quot;,&quot;identifier&quot;:&quot;America/New_York&quot;}" data-app-version="20.23.12" dir="ltr" data-telemetry-endpoint="https://prd.us-east-1.telemetryservice.brightspace.com/api/events/" data-cdn="https://s.brightspace.com/apps/brightspace/20.23.12.18824/" data-global-context="{&quot;orgUnitId&quot;:&quot;692019&quot;}" data-he-context="{&quot;activeOrgEnrollment&quot;:true,&quot;allowInvalidElements&quot;:false,&quot;calloutsWC&quot;:false,&quot;clickToRevealsWC&quot;:false,&quot;contentStyler&quot;:false,&quot;contentStylerCssOverride&quot;:&quot;&quot;,&quot;generativeAIEndpoint&quot;:&quot;&quot;,&quot;insertElement&quot;:false,&quot;insertPractice&quot;:false,&quot;layouts&quot;:false,&quot;mathRenderScale&quot;:1.5,&quot;maxFileSize&quot;:2147483648,&quot;mentions&quot;:true,&quot;orgUnitId&quot;:&quot;692019&quot;,&quot;orgUnitPath&quot;:&quot;/content/enforced/692019-1238-CSE-416-02-91717/&quot;,&quot;pasteFormatting&quot;:&quot;merge&quot;,&quot;pluginsBSIProvider&quot;:true,&quot;removeObsoleteScripts&quot;:true,&quot;showPageAttributeTextDirection&quot;:true,&quot;sourceEditable&quot;:true,&quot;stylizedQuotesWC&quot;:false,&quot;tabsWC&quot;:false,&quot;timelinesWC&quot;:false,&quot;toolbarRefactor&quot;:true,&quot;typesetMathOnce&quot;:true,&quot;uploadFiles&quot;:false,&quot;useContextMenuContainer&quot;:true,&quot;useNewPluginFramework&quot;:true,&quot;useNewTinyMCEVersion&quot;:true,&quot;viewFiles&quot;:false,&quot;wirisPath&quot;:&quot;/wiris/editorservice.aspx&quot;,&quot;wmodeOpaque&quot;:true}" data-css-vars="{&quot;--d2l-branding-primary-color&quot;:&quot;#000000&quot;}">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Grades - -CSE 416.02 Software Engineering - Fall 2023 - Stony Brook University</title>
+		<link rel="preconnect" href="https://s.brightspace.com/lib/bsi/20.23.12-266/" crossorigin>
+		<link rel="dns-prefetch" href="https://s.brightspace.com/lib/bsi/20.23.12-266/">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/bsi-unbundled.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/button-icon.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/html-block.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-table.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-navigation.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-navigation-main-header.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-navigation-button-icon.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-navigation-separator.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-navigation-link-image.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-navigation-dropdown-button-icon.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/dropdown-content.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-navigation-dropdown-button-custom.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-profile-image-base.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-navigation-main-footer.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/dropdown.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/dropdown-menu.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/icon.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/menu.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/menu-item-link.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/menu-item.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/d2l-navigation-band.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/dropdown-more.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/button-subtle.js" as="script" crossorigin="anonymous">
+		<script>
+		(function(){if('PerformanceLongTaskTiming' in window) {var g = window.__tti = {e:[]};g.o = new PerformanceObserver( function( l ){ g.e = g.e.concat( l.getEntries() ) });g.o.observe({ entryTypes:['longtask']})}})();
+		(function(){var client;var errors = [];window.addEventListener('d2l-logging-loaded', function(e) {client = e.detail.createClient('uncaught-errors', { shouldThrottle: true });if (errors.length > 0) {client.legacyErrorBatch(errors);}});var handleError = function(data) {if (client) {client.legacyError(data.message, data.source, data.lineno, data.colno, data.error);} else {errors.push(data);}};window.addEventListener('error', function(e) {handleError({ message: e.message, source: e.source, lineno: e.lineno, colno: e.colno, error: e.error });});window.addEventListener('unhandledrejection', function(e) {handleError({message: e.reason ? (e.reason.message ? e.reason.message : e.reason) : '',error: e.reason});});})();
+		(function(){try { localStorage.setItem('XSRF.Token','pxXZT77Mikuznxc7zUohQRaQ2laYBjeE');localStorage.setItem('Session.UserId','203477');} catch(e) {}})();
+		(function(){if(window['FontFace'] === undefined) { window.d2lFontsLoaded = true; return; }window.d2lFontsLoaded = false;Promise.all(['400','700'].map(function(w) {return new FontFace('Lato','url(https://s.brightspace.com/lib/fonts/0.5.0/assets/Lato-' + w + '.woff2) format("woff2")', {style:'normal',weight: w}).load();})).then(function() {window.d2lFontsLoaded = true;if(window['D2L'] && window.D2L['FontsLoaded']) { window.D2L.FontsLoaded(); }});})();
+		(function(){
+				D2L = window.D2L || {}; D2L.LP = D2L.LP || {}; D2L.LP.Web = D2L.LP.Web || {}; D2L.LP.Web.UI = D2L.LP.Web.UI || {};
+				D2L.LP.Web.UI.Flags = {
+					ListedFlags: {"F21298-cplus-timelines":true,"us132260-lti-component-postmessage-storage-limit":true,"US157086-mandatory-autosubmit-flag":false,"DE54981-label-bonus-questions-in-quiz-attempt":true,"US156825-cplus-htmleditor-plugins-bsi-provider":true,"f19769-revamp-submission-page":true,"F21299-cplus-click-to-reveals":false,"f17596-student-controlled-clock-visibility":true,"US114014-LimitContentInManageFiles":true,"I4767-Course-Create-Widget-GA":false,"F21296-cplus-callouts":true,"F19053-outcomes-oslo-MV":true,"f19691-search-by-email":true,"rubrics-working-copy":true,"f21868-display-email":true,"rubrics-popout-activity-details":true,"F19162-enable-content-face-releaseconditions":true,"F22081-hwep-eol-in-app-messaging":true,"de44716-lti-iframe-resize-limit":false,"rubrics-print-stats-btn-in-tile-F18410":true,"F21715-Enhanced-short-code-support-in-outcomes":false,"F18126-rubric-print":true,"F21295-cplus-accordions":true,"F19163-enable-content-face-standards":true,"new-annotations-viewer":false,"de51796-lti-component-log-spam":true,"F22133-user-progress-d2l-list":true,"F21301-cplus-flipcards":true,"F21912-enable-content-face-competencies":true,"f17183-synchronous-quizzes-org-level":true,"F18117-face-discussions-m2":true,"F21297-cplus-tabs":false,"assigned-activities-informative-publish-all-dialog":true,"rubrics-close-pop-out-when-changes-saved-DE50529":true,"F16988-add-to-calendar":true,"rubrics-archive":true,"consistent-evaluation-working-copy":true,"F18308-manually-enter-negative-scores":true,"F21302-cplus-stylized-quotes":false,"activity-alignments-list-clear-all-confirmation":true,"F19935-more-paging-options":true,"US157380-iframe-resizing":true,"f22019-display-email-in-user-profile-page":true,"rubrics-edit-assessed":true,"f21938-display-user-profile-picture":true,"f20000-download-baked-badge":false,"F21836-outcomes-achievement-threshold":false,"F21956-toggle-forum":true,"d2l-collapsible-panel-rubrics":true,"f17182-autosubmit-quiz-org-level":true,"F18735-lti-special-access-ui-feature-flag":false},
+					Flag: function(feature, defaultValue) {
+						const featureValue = D2L.LP.Web.UI.Flags.ListedFlags[feature];
+						return featureValue !== undefined ? featureValue : defaultValue;
+					}
+				};
+			})();
+		</script>
+		<link rel="icon" href="https://s.brightspace.com/lib/branding/1.0.0/brightspace/favicon.ico" sizes="any" />
+		<link rel="icon" href="https://s.brightspace.com/lib/branding/1.0.0/brightspace/favicon.svg" type="image/svg+xml" />
+		<link rel="stylesheet" type="text/css" href="https://s.brightspace.com/lib/bsi/20.23.12-266/bsi.css" />
+		<link rel="stylesheet" type="text/css" href="https://s.brightspace.com/apps/brightspace/20.23.12.18824/web-packages/D2L.LP.Web.Core.css" />
+		<link rel="stylesheet" type="text/css" href="https://s.brightspace.com/apps/brightspace/20.23.12.18824/web-packages/D2L.PlatformTools.Notifications.Pulse.css" />
+		<link rel="stylesheet" type="text/css" href="https://s.brightspace.com/apps/brightspace/20.23.12.18824/web-packages/D2L.LP.Web.Controls.Grid.css" />
+		<style>
+			html { font-size:20px; }
+			html { --d2l-branding-primary-color: #000000; }
+		</style>
+		<link rel="stylesheet" type="text/css" href="/d2l/lms/grades/static/css/main.css?v=20.23.12.18824" />
+		<style>
+			.cDark { background-color:#65696e;}
+			.cDark a, .cDark a:link, .cDark a:visited, .cDark a:hover {color:#ffffff;font-weight:normal;}
+			.cLight { background-color:#f39120;}
+			.cLight a, .cLight a:link, .cLight a:visited, .cLight a:hover {color:#ffffff;font-weight:normal;}
+			.cSoft { background-color:#e7e7e2;}
+			.cSoft a, .cSoft a:link, .cSoft a:visited, .cSoft a:hover {color:#666666;font-weight:normal;}
+			.d2l_1_1_880 {margin:0 1rem 0 0;}
+			.d2l_1_2_838 {max-height:3.2rem;}
+			.d2l_1_3_733 {max-width:3.2rem;}
+			.d2l-branding-navigation-background-color {background-color: #990000;}
+			.d2l_1_8_473 {margin:10px;}
+			.d2l_1_11_126 {width:500px;}
+			.d2l_1_12_806 {background-position:left top;}
+			.d2l_1_13_134 {padding:1em;}
+			.d2l_1_14_996 {background-image:url('https://s.brightspace.com/lib/bsi/20.23.12-266/images/tier1/alert.svg');}
+			.d2l_1_15_787 {background-position:right top;}
+			.d2l_1_16_568 {padding-right:31px;}
+			.d2l_1_17_447 {min-height:18px;}
+			.d2l_1_18_812 {background-image:url('https://s.brightspace.com/lib/bsi/20.23.12-266/images/tier1/check.svg');}
+			.d2l_1_19_401 {padding:3.4em;}
+		</style>
+		<script>
+			var Global = {OrgUnitId:692019,OrgId:6686,OrgName:'Stony Brook University',OrgUnitName:'-CSE 416.02 Software Engineering - Fall 2023',OrgUnitCode:'1238-CSE-416-02-91717',OrgUnitTypeId:3,OrgDefinedId:'113085521',OrgUnitPath:'\/content\/enforced\/692019-1238-CSE-416-02-91717\/',FirstName:'Shihao',LastName:'Wen',UserName:'shiwen',UserId:203477,RoleId:129,RoleCode:'',ImageSetId:0,ImageVersion:'20.23.12.18824',AssemblyVersion:'20.23.12.18824',Language:{LanguageId:1,LanguageVersion:'20.23.12.18824'},Culture:{IsRightToLeft:0},};
+			var BrowserInfo = {browserType:'Safari',Type:4,MajorVersion:605,MinorVersion:1};
+		</script>
+		<script src="https://s.brightspace.com/lib/jquery/3.7.1/jquery.min.js"></script>
+		<script src="https://s.brightspace.com/lib/jqueryui/1.13.2/jquery-ui.min.js"></script>
+		<script src="https://s.brightspace.com/lib/bsi/20.23.12-266/bsi.js"></script>
+		<script>
+		window.__elasticRumOnload = function() {var apm = elasticApm.init({serviceName: 'LMS',serverUrl: 'https://d2l-elasticrum.apm.us-east-1.aws.cloud.es.io/',transactionSampleRate: 0.1,disableInstrumentations: ['xmlhttprequest','fetch','eventtarget','history']});apm.addLabels({ "orgName": "sbupilot"});apm.addLabels({ "instanceName": "sunydle"});};
+		</script>
+		<script async="async" onload="window.__elasticRumOnload()" src="https://s.brightspace.com/lib/elastic-apm-rum/5.5.0/elastic-apm-rum.umd.min.js"></script>
+		<script>
+		window.__ttiOnload = function() {ttiPolyfill.getFirstConsistentlyInteractive().then(function(tti) {if (tti) {document.dispatchEvent(new CustomEvent('d2l-performance-measure', {bubbles: true,detail: { name: 'd2l.page.tti', value: {name: 'd2l.page.tti', entryType: 'tti-polyfill', duration: tti, startTime: 0} }}));}});};
+		</script>
+		<script async="async" onload="window.__ttiOnload()" src="https://s.brightspace.com/lib/tti-polyfill/0.2.2/tti-polyfill-global.js"></script>
+		<script src="https://s.brightspace.com/apps/brightspace/20.23.12.18824/web-packages/D2L.LP.Web.Core.js"></script>
+		<script src="https://s.brightspace.com/apps/brightspace/20.23.12.18824/web-packages/D2L.PlatformTools.Notifications.Pulse.js"></script>
+		<script src="https://s.brightspace.com/apps/brightspace/20.23.12.18824/web-packages/D2L.LP.Web.Controls.Grid.js"></script>
+		<script src="/d2l/lms/grades/static/include/constants.js?v=20.23.12.18824"></script>
+		<script src="/d2l/lms/grades/static/include/grades.js?v=20.23.12.18824"></script>
+		<script src="/d2l/lms/grades/static/include/grade_list_dialog.js?v=20.23.12.18824"></script>
+		<script src="/d2l/lms/grades/static/include/grade_object_render.js?v=20.23.12.18824"></script>
+		<script src="/d2l/lms/grades/static/include/my_grades.js?v=20.23.12.18824"></script>
+		<script>
+			D2L.Serialization.JsonDeserializerMin.Deserialize(["673be6a58bb142878e2a512dc489fda6",86,0,[{"ctl_3":[["dg_showgrade"],[]],"ctl_4":[["dg_showgrade","ctl_1"],[]],"ctl_5":[["dg_showgrade","ctl_2"],[]],"ctl_6":[["dg_showgrade","ctl_4"],[]],"ctl_7":[["dg_showgrade","ctl_7"],[]],"ctl_8":[["dg_showgrade","ctl_9"],[]],"ctl_11":[["dg_showgrade","ctl_12"],[]],"ctl_12":[["dg_showgrade","ctl_14"],[]],"ctl_15":[["dg_showgrade","ctl_17"],[]],"ctl_16":[["dg_showgrade","ctl_19"],[]],"ctl_19":[["dg_showgrade","ctl_22"],[]],"ctl_20":[["dg_showgrade","ctl_24"],[]],"ctl_23":[["dg_showgrade","ctl_27"],[]],"ctl_24":[["dg_showgrade","ctl_29"],[]],"ctl_25":[["dg_showgrade","ctl_32"],[]],"ctl_26":[["dg_showgrade","ctl_34"],[]],"ctl_29":[["dg_showgrade","ctl_37"],[]],"ctl_30":[["dg_showgrade","ctl_39"],[]],"ctl_33":[["dg_showgrade","ctl_42"],[]],"ctl_34":[["dg_showgrade","ctl_44"],[]],"ctl_37":[["dg_showgrade","ctl_47"],[]],"ctl_38":[["dg_showgrade","ctl_49"],[]],"ctl_41":[["dg_showgrade","ctl_52"],[]],"ctl_42":[["dg_showgrade","ctl_54"],[]],"ctl_45":[["dg_showgrade","ctl_57"],[]],"ctl_46":[["dg_showgrade","ctl_59"],[]],"ctl_49":[["dg_showgrade","ctl_62"],[]],"ctl_50":[["dg_showgrade","ctl_64"],[]],"ctl_53":[["dg_showgrade","ctl_67"],[]],"ctl_54":[["dg_showgrade","ctl_69"],[]],"ctl_57":[["dg_showgrade","ctl_72"],[]],"ctl_58":[["dg_showgrade","ctl_74"],[]],"ctl_61":[["dg_showgrade","ctl_77"],[]],"ctl_62":[["dg_showgrade","ctl_79"],[]],"ctl_65":[["dg_showgrade","ctl_82"],[]],"ctl_66":[["dg_showgrade","ctl_84"],[]],"ctl_69":[["dg_showgrade","ctl_87"],[]],"ctl_70":[["dg_showgrade","ctl_89"],[]]}],[[]],[[]],[[],0],["^([\\(-]*(([01234567890123456789]?[01234567890123456789]?([01234567890123456789](,[01234567890123456789][01234567890123456789][01234567890123456789])*)))(\\.[01234567890123456789]+)?[\\)-]*)$|^([\\(-]*[01234567890123456789]*\\.?[01234567890123456789]+[\\)-]*)$","^([\\(-]*(([01234567890123456789]?[01234567890123456789]?([01234567890123456789](,[01234567890123456789][01234567890123456789][01234567890123456789])*)?))[\\)-]*)$|^([\\(-]*[01234567890123456789]+[\\)-]*)$",0,".",1,"-",",",["0","1","2","3","4","5","6","7","8","9"],"%",0,0,0,[3]],[],0,{"ClassName":"D2L.Util.DateTime","Year":2024,"Month":1,"Day":6,"Hour":13,"Minute":28,"Second":51,"Millisecond":829}],D2L.UI);
+			D2L.Language.InitLang({'standard.buttons':{'btnadd':'Add','btnreset':'Reset','btnreplace':'Replace','btnrename':'Rename','btnremoveselected':'Remove Selected','btnremove':'Remove','btnrefresh':'Refresh','btnrecord':'Record','btnpublishprocessing':'Publishing...','btnpublish1':'Publish','btnpublish':'Publish to LOR','btnproceed':'Proceed','btnprint':'Print','btnprevious':'Previous ','btnpreview':'Preview','btnoverwrite':'Overwrite','btnokay':'OK','btnok':'OK','btnresetprocessing':'Resetting...','btnretract':'Retract','btnreturn':'Return','btnrevert':'Undo Unsaved Changes','btnupload':'Upload','btnupdateprocessing':'Updating...','btnupdate':'Update','btnsubmit':'Submit','btnstart':'Start','btnskip':'Skip','btnshowall':'Show All','btnset':'Set','btnno':'No','btnsend':'Send','btnsearch':'Search','btnsaveprocessing':'Saving...','btnsavedraft':'Save Draft','btnsaveandnew':'Save and New','btnsaveandcopy':'Save and Copy','btnsaveandclose':'Save and Close','btnsave':'Save','btnrun':'Run','btnselectcurrentfolder':'Select Current Folder','btnnext':'Next','btnnew':'New','btnlistall':'List All','btnclearlist':'Clear List','btnclearchanges':'Clear Changes','btnclearall':'Clear All','btnclear':'Clear','btnchangepassword':'Change Password','btnchangelanguage':'Change Language','btnchange':'Change','btncancelprocessing':'Canceling...','btnclose':'Close','btncancel':'Cancel','btnback':'Back','btnapplyprocessing':'Applying...','btnapply':'Apply','btnadmin':'Admin','btnaddselected':'Add Selected','btnaddprocessing':'Adding...','btnaddanother':'Add Another','btnaddandnew':'Add and New','btnbrowse':'Browse','btnview':'View','btnconfirm':'Confirm','btncopy':'Copy','btninsert':'Insert','btnimport':'Import','btnhome':'Home','btnhistory':'History','btngoback':'Go Back','btngo':'Go','btnfinish':'Finish','btnexport':'Export','btncontinue':'Continue','btnedit':'Edit','btndontsave':'Don\u0027t Save','btndone':'Done','btndeleteselected':'Delete Selected','btndeleteprocessing':'Deleting...','btndelete':'Delete','btncustomize':'Customize','btncreateprocessing':'Creating...','btncreate':'Create','btndownload':'Download','btnyes':'Yes'},'framework.dialog':{'altclosedialog':'Close this Dialog','altjumpbottom':'Jump to bottom of [0] dialog','altjumptop':'Jump to top of [0] dialog','altresizedialog':'Resize this Dialog','lblsaveconfirmationprimary':'This page has been edited.','lblsaveconfirmationsecondary':'Do you want to save the changes?','titconfirmation':'Confirmation','titerror':'Error','titinformation':'Information','titinputrequested':'Choose a Value','titprocessing':'Processing...','titsavechanges':'Save Changes','titwarning':'Warning'},'framework.messagearea':{'hdrerrors':'Errors','lblerrors':'There were [0] error(s) found in the information you submitted:','lblstatus1':'Saved successfully','lblstatus10':'Removed successfully','lblstatus11':'Enrolled successfully','lblstatus12':'Unenrolled successfully','lblstatus13':'Sent successfully','lblstatus14':'Rubric saved - Grade not published since the course is in an in-active state','lblstatus2':'Deleted successfully','lblstatus3':'Created successfully','lblstatus4':'Reordered successfully','lblstatus5':'Copied successfully','lblstatus6':'Imported successfully','lblstatus7':'Exported successfully','lblstatus8':'Moved successfully','lblstatus9':'Added successfully'}},{'standard.misc.txtloading':'Loading...','standard.misc.txtcopyright':'Powered by D2L Incorporated'});
+			D2L.Language.InitImg({'framework.messagearea':{'actstatus11':["0\/Framework.MessageArea.actStatus11.gif"],'actstatus12':["0\/Framework.MessageArea.actStatus12.gif"],'actstatus13':["0\/Framework.MessageArea.actStatus13.gif"],'actstatus3':["https:\/\/s.brightspace.com\/lib\/bsi\/20.23.12-266\/images\/tier1\/file-document.svg",18],'actstatus6':["0\/Framework.MessageArea.actStatus6.gif"],'actstatus7':["0\/Framework.MessageArea.actStatus7.gif"]}},{});
+			function d2l_Onload() {
+				D2L.WebComponentsReady.then(function() {
+					UI.OnPageLoad().Trigger();
+					D2L.C('GradeItems','grid_gradeitems');
+					
+				});
+			}
+			function d2l_Onunload() {
+				UI.OnPageUnload().Trigger();
+				D2L.GarbageCollection.Dispose();
+			}
+		</script>
+		</head>
+	<body id="d2l_body" onunload="d2l_Onunload();" onload="d2l_Onload();" class="vui-typography d2l-typography daylight d2l-body-unresolved">
+		<header><nav class="d2l-navigation-s d2l-branding-navigation-light-foreground-color d2l-navigation-s-linkarea-has-color"><d2l-navigation has-skip-nav><d2l-navigation-main-header><div class="d2l-navigation-header-left" slot="left"><div class="d2l-navigation-s-header-open-button-wrapper"><d2l-navigation-button-icon icon="tier3:menu-hamburger" text="Menu" text-hidden tooltip-offset="0"></d2l-navigation-button-icon></div><div class="d2l-navigation-s-header-logo-area d2l-navigation-s-header-no-home-icon"><d2l-navigation-separator class="d2l-navigation-s-logo-divider"></d2l-navigation-separator><d2l-navigation-link-image class="d2l-navigation-s-logo" src="/d2l/lp/navbars/6686/theme/viewimage/18803/view?v=20.23.12.18824" text="My Home" href="/d2l/lp/ouHome/defaultHome.d2l" slim tooltip-offset="0"></d2l-navigation-link-image><d2l-navigation-separator class="d2l-navigation-s-title-divider"></d2l-navigation-separator><div class="d2l-navigation-s-title-container"><a class="d2l-navigation-s-link" href="/d2l/home/692019" title="-CSE 416.02 Software Engineering - Fall 2023">-CSE 416.02 Software Engineering - Fall 2023</a></div></div></div><div class="d2l-navigation-header-right" slot="right"><div class="d2l-navigation-s-course-menu"><d2l-navigation-dropdown-button-icon icon="tier3:classes" text="Select a course..." no-auto-open tooltip-offset="0" data-prl="/d2l/lp/courseSelector/692019/InitPartial" data-prid="d2l_1_4_715"><d2l-dropdown-content max-width="800" min-width="450" no-padding vertical-offset="0"><div id="d2l_1_4_715" class="d2l-placeholder d2l-placeholder-live">
+		</div>
+		</d2l-dropdown-content></d2l-navigation-dropdown-button-icon></div><d2l-navigation-separator class="d2l-navigation-s-course-menu-divider"></d2l-navigation-separator><div class="d2l-navigation-s-notifications"><div class="d2l-navigation-s-notifications-wrapper"><div class="d2l-navigation-s-notification" data-category="messages" data-aria-message="You have new Messages"><d2l-navigation-dropdown-button-icon icon="tier3:email" text="Message alerts" no-auto-open tooltip-offset="0" data-prl="/d2l/NavigationArea/692019/ActivityFeed/GetAlertsDaylight?Category=2" data-prid="d2l_1_5_781"><d2l-dropdown-content max-width="500" no-padding vertical-offset="0"><div id="d2l_1_5_781" class="d2l-placeholder d2l-placeholder-live">
+		</div>
+		</d2l-dropdown-content></d2l-navigation-dropdown-button-icon></div><div class="d2l-navigation-s-notification" data-category="alerts" data-aria-message="You have new Subscriptions"><d2l-navigation-dropdown-button-icon icon="tier3:discussions" text="Subscription alerts" no-auto-open tooltip-offset="0" data-prl="/d2l/NavigationArea/692019/ActivityFeed/GetAlertsDaylight?Category=0" data-prid="d2l_1_6_488"><d2l-dropdown-content no-padding vertical-offset="0"><div id="d2l_1_6_488" class="d2l-placeholder d2l-placeholder-live">
+		</div>
+		</d2l-dropdown-content></d2l-navigation-dropdown-button-icon></div><div class="d2l-navigation-s-notification" data-category="grades" data-aria-message="You have new Updates"><d2l-navigation-dropdown-button-icon icon="tier3:notification-bell" text="Update alerts" no-auto-open tooltip-offset="0" data-prl="/d2l/NavigationArea/692019/ActivityFeed/GetAlertsDaylight?Category=1" data-prid="d2l_1_7_709"><d2l-dropdown-content no-padding vertical-offset="0"><div id="d2l_1_7_709" class="d2l-placeholder d2l-placeholder-live">
+		</div>
+		</d2l-dropdown-content></d2l-navigation-dropdown-button-icon></div></div><div class="d2l-navigation-s-notifications-div"></div></div><d2l-navigation-separator class="d2l-navigation-s-notifications-divider"></d2l-navigation-separator><div class="d2l-navigation-s-personal-menu"><d2l-navigation-dropdown-button-custom><span class="d2l-navigation-s-personal-menu-wrapper" slot="opener"><d2l-profile-image-base class="d2l-token-receiver" data-token-receiver-scope="core:*:*" href="" first-name="Shihao" last-name="Wen" color-id="203477" size="medium"></d2l-profile-image-base><span class="d2l-navigation-s-personal-menu-text">Shihao Wen</span></span><d2l-dropdown-content min-width="300" no-padding vertical-offset="0"><div>
+			<ul class="d2l-list">
+				<li>
+					<ul style="list-style:none;margin:10px;padding:0;">
+						<li>
+							<span style="white-space:nowrap;"><a class="d2l-link" aria-label="" href="/d2l/lp/profile/profile_edit.d2l?ou=692019" onclick="D2L.O(&quot;__gctl_73&quot;,0)();">Profile</a>
+							</span></li>
+						<li>
+							<span style="white-space:nowrap;"><a class="d2l-link" aria-label="" href="/d2l/Notifications/Settings?ou=692019" onclick="D2L.O(&quot;__gctl_73&quot;,1)();">Notifications</a>
+							</span></li>
+						<li>
+							<span style="white-space:nowrap;"><a class="d2l-link" aria-label="" href="/d2l/lp/preferences/preferences_main/preferences_main.d2l?ou=692019" onclick="D2L.O(&quot;__gctl_73&quot;,2)();">Account Settings</a>
+							</span></li>
+					</ul>
+					<hr class="d2l-navigation-area-menu-separator" /></li>
+				<li>
+					<ul style="list-style:none;margin:10px;padding:0;">
+						<li>
+							<span style="white-space:nowrap;"><a class="d2l-link" aria-label="" href="/d2l/le/userprogress/203477/692019/Summary?searchString=&amp;sortField=SortLastName&amp;sortDirection=0">Progress</a>
+							</span></li>
+					</ul>
+					<hr class="d2l-navigation-area-menu-separator" /></li>
+				<li>
+					<ul style="list-style:none;margin:10px;padding:0;">
+						<li>
+							<span style="white-space:nowrap;"><a class="d2l-link" aria-label="" id="LocaleLinkId" href="javascript:void(0);" onclick="D2L.O(&quot;__gctl_73&quot;,3)();return false;">English (United States)</a>
+							</span></li>
+					</ul>
+					<hr class="d2l-navigation-area-menu-separator" /></li>
+				<li>
+					<span style="white-space:nowrap;"><a class="d2l-link d2l_1_8_473" aria-label="" href="javascript:void(0);" onclick="D2L.O(&quot;__gctl_73&quot;,4)();return false;">Log Out</a>
+					</span></li>
+			</ul>
+		</div>
+		</d2l-dropdown-content></d2l-navigation-dropdown-button-custom></div></div></d2l-navigation-main-header><d2l-navigation-main-footer class="d2l-branding-navigation-background-color d2l-visible-on-ancestor-target"><div slot="main"><div class="d2l-navigation-s-main-wrapper" data-loading="1" data-unmeasured="1" role="list"><div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/home/692019" class="d2l-navigation-s-link">Course Home</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/le/content/692019/Home" class="d2l-navigation-s-link">Content</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/lms/dropbox/dropbox.d2l?ou=692019" class="d2l-navigation-s-link">Assignments</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/lms/quizzing/quizzing.d2l?ou=692019" class="d2l-navigation-s-link">Exams / Quizzes</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/le/692019/discussions/List" class="d2l-navigation-s-link">Discussions</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/le/userprogress/203477/692019/Summary?searchString=&amp;sortField=SortLastName&amp;sortDirection=0" class="d2l-navigation-s-link">Class Progress</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/lms/grades/index.d2l?ou=692019" class="d2l-navigation-s-link">Grades</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="https://mycourses.stonybrook.edu/d2l/le/content/6686/viewContent/8378243/View" data-popup-menubar="1" data-popup-toolbar="1" rel="noopener" class="d2l-navigation-s-link d2l-navigation-s-link-popup">Learner Resources</a></div>
+		<div class="d2l-navigation-s-item d2l-navigation-s-more" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">More</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="More" class="d2l-menu-mvc">
+			<d2l-menu-item-link text="Course Home" href="/d2l/home/692019" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Content" href="/d2l/le/content/692019/Home" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Assignments" href="/d2l/lms/dropbox/dropbox.d2l?ou=692019" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Exams / Quizzes" href="/d2l/lms/quizzing/quizzing.d2l?ou=692019" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Discussions" href="/d2l/le/692019/discussions/List" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Class Progress" href="/d2l/le/userprogress/203477/692019/Summary?searchString=&amp;sortField=SortLastName&amp;sortDirection=0" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Grades" href="/d2l/lms/grades/index.d2l?ou=692019" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item text="Learner Resources" class="d2l-navigation-s-menu-item-root" id="d2l_1_9_426"></d2l-menu-item>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		</div></div></d2l-navigation-main-footer><div class="d2l-navigation-s-mobile-menu" data-state="closed" data-cprl="/d2l/lp/courseSelector/692019/InitPartial"><div class="d2l-navigation-s-mobile-menu-mask"><div class="d2l-navigation-s-mobile-menu-focus-trap-start d2l-offscreen" tabindex="0">Menu Start</div><p class="d2l-navigation-s-mobile-menu-first d2l-offscreen" tabindex="-1">Menu Start</p><div class="d2l-navigation-s-mobile-menu-mask-close"><d2l-button-icon icon="tier1:close-large-thick" text="close"></d2l-button-icon>
+		</div></div><div class="d2l-navigation-s-mobile-menu-content"><d2l-navigation-band></d2l-navigation-band><div class="d2l-navigation-s-mobile-menu-header"><div class="d2l-navigation-s-mobile-menu-branded-header"><div class="d2l-navigation-s-header-logo-area d2l-navigation-s-header-no-home-icon"><d2l-navigation-separator class="d2l-navigation-s-logo-divider"></d2l-navigation-separator><d2l-navigation-link-image class="d2l-navigation-s-logo" src="/d2l/lp/navbars/6686/theme/viewimage/18803/view?v=20.23.12.18824" text="My Home" href="/d2l/lp/ouHome/defaultHome.d2l" slim tooltip-offset="0"></d2l-navigation-link-image><d2l-navigation-separator class="d2l-navigation-s-title-divider"></d2l-navigation-separator><div class="d2l-navigation-s-title-container"><a class="d2l-navigation-s-link" href="/d2l/home/692019" title="-CSE 416.02 Software Engineering - Fall 2023">-CSE 416.02 Software Engineering - Fall 2023</a></div></div><div class="d2l-navigation-s-gutter"></div><div class="d2l-navigation-s-mobile-menu-course-selector"><d2l-navigation-button-icon icon="tier3:classes" text="Select a course..." text-hidden tooltip-offset="0"></d2l-navigation-button-icon></div></div><div class="d2l-navigation-s-mobile-menu-header-course-menu"><d2l-navigation-button-icon icon="tier1:chevron-left" text="-CSE 416.02 Software Engineering - Fall 2023" text-hidden tooltip-offset="0"></d2l-navigation-button-icon><div class="d2l-navigation-s-title-container"><span class="d2l-navigation-s-title">-CSE 416.02 Software Engineering - Fall 2023</span></div></div></div><div class="d2l-navigation-s-title-container d2l-navigation-s-mobile-menu-title-bp d2l-branding-navigation-background-color"><a class="d2l-navigation-s-link" href="/d2l/home/692019" title="-CSE 416.02 Software Engineering - Fall 2023">-CSE 416.02 Software Engineering - Fall 2023</a></div><div class="d2l-navigation-s-mobile-menu-course-menu"></div><div class="d2l-navigation-s-mobile-menu-nav"><d2l-menu label="Menu" class="d2l-menu-mvc">
+			<d2l-menu-item-link text="Course Home" href="/d2l/home/692019"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Content" href="/d2l/le/content/692019/Home"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Assignments" href="/d2l/lms/dropbox/dropbox.d2l?ou=692019"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Exams / Quizzes" href="/d2l/lms/quizzing/quizzing.d2l?ou=692019"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Discussions" href="/d2l/le/692019/discussions/List"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Class Progress" href="/d2l/le/userprogress/203477/692019/Summary?searchString=&amp;sortField=SortLastName&amp;sortDirection=0"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Grades" href="/d2l/lms/grades/index.d2l?ou=692019"></d2l-menu-item-link>
+			<d2l-menu-item text="Learner Resources" id="d2l_1_10_287"></d2l-menu-item>
+		</d2l-menu>
+		</div></div><div class="d2l-navigation-s-mobile-menu-focus-trap-end d2l-offscreen" tabindex="0">Menu End</div></div></d2l-navigation></nav></header><div class="d2l-page-message-container"><div class="d2l-page-message d2l-hidden d2l_1_11_126" id="d2l_sessionExpiryWarning"><div style="display:none;" id="d2l_sessionExpiryAlert" role="alert"><div class="d2l-container-icon d2l_1_12_806 d2l_1_13_134">
+			<div class="d2l-container-icon-inner d2l_1_14_996 d2l_1_15_787 d2l_1_16_568 d2l_1_17_447">
+				<h2 class="d2l-heading vui-heading-2">Are You Still There?</h2>
+				<div class="d2l-textblock">Your session expires after 180 minutes of inactivity, which protects your information in case you&#39;ve left your device without logging out.<br/>
+<br/>
+<strong>Hit a key or click anywhere to stay logged in.</strong></div>
+			</div>
+		</div>
+		</div><div style="display:none;" id="d2l_sessionExpiryCheck" role="alert"><div class="d2l-container-icon d2l_1_12_806 d2l_1_13_134">
+			<div class="d2l-container-icon-inner d2l_1_18_812 d2l_1_15_787 d2l_1_16_568 d2l_1_17_447">
+				<div class="d2l_1_19_401">
+					<h2 class="d2l-heading vui-heading-2 d2l-heading-none">Oh, There You Are!</h2>
+				</div>
+			</div>
+		</div>
+		</div></div>
+		</div>
+		<div id="d_content" class="d2l-page-main d2l-max-width d2l-min-width"  >
+		<div id="d_content_inner" class="d2l-page-main-padding">
+		<div id="d_page_header" class="d2l-page-header"><div class="d2l-page-actions-container d2l-right"><div class="page-action-group"><d2l-dropdown-more text="Utilities"><d2l-dropdown-menu no-pointer vertical-offset="12"><d2l-menu label="Utilities" class="d2l-menu-mvc">
+			<d2l-menu-item text="Print" id="d2l_1_20_777"></d2l-menu-item>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown-more>
+		</div><div class="d2l-page-actions d2l-page-actions-responsive" role="region" aria-label="Utilities">
+			<div class="d2l-button-subtle-group">
+				<d2l-button-subtle icon="tier1:print" onclick="D2L.O(&quot;__gctl_74&quot;,0)();" text="Print"></d2l-button-subtle>
+			</div>
+		</div>
+		<div class="d2l-clear"></div></div><div class="d2l-tool-actions d2l-left"><div class="d2l-heading"><h1 id="d_page_title" class="d2l-heading-title"><span class="vui-heading-1">Grades</span></h1>
+		</div></div><span class="d2l-clear"></span></div><div id="d_content_r_c1">
+				<div id="d_content_r_c2">
+					<div id="d_content_r">
+						<div id="d_content_r_p">
+							<form method="post" action="main.d2l?ou=692019" id="d2l_form" enctype="multipart/form-data" onreset="return false;" onsubmit="return false;">
+								<div>
+									<input type="hidden" name="d2l_action" value="" />
+									<input type="hidden" name="d2l_actionparam" value="" />
+									<input type="hidden" name="d2l_hitCode" value="" />
+									<input type="hidden" name="d2l_rf" value="" />
+									<input type="hidden" name="d2l_controlMapPrev" value="" />
+<div class="dco"><div class="dco_c"><div class=" d2l-pulseapp-banner-new">
+								<div class=" d2l-inline d2l-pulseapp-banner-new-section">
+									<div class=" d2l-pulseapp-banner-new-header">
+										<img class="d2l-image d2l_1_1_880 d2l_1_2_838 d2l_1_3_733" src="/d2l/img/0/Notifications.PulseApp.PulseIcon.png?v=20.23.12.18824" style="width:663px;height:664px;" alt="" />
+										<h2 class="d2l-heading vui-heading-2">Stay Up-to-date on your grades with the Pulse App</h2>
+									</div>
+									<div class="d2l-textblock d2l-pulseapp-banner-new-subtitle">Keep track with your courses on the go!</div>
+									<div class=" d2l-pulseapp-storelinks d2l-pulseapp-banner-new-storelinks">
+										<a class="d2l-pulse-storelink" href="https://itunes.apple.com/us/app/brightspace-pulse/id1001688546?ls=1&amp;mt=8" target="_blank" title="Download on the App Store" onclick="SendStoreClickTelemetry(&quot;Apple&quot;);" rel="noopener"><img src="/d2l/img/0/Notifications.PulseApp.AppStore.svg?v=20.23.12.18824" height="40px" width="auto" alt="Download on the App Store" /></a><a class="d2l-pulse-storelink" href="https://play.google.com/store/apps/details?id=com.d2l.brightspace.student.android" target="_blank" title="Get it on Google Play" onclick="SendStoreClickTelemetry(&quot;Google&quot;);" rel="noopener"><img src="/d2l/img/0/Notifications.PulseApp.PlayStore.png?v=20.23.12.18824" height="40px" width="auto" alt="Get it on Google Play" /></a><script type="text/javascript">window.addEventListener('load', function(event) {
+  SendBannerLoadTelemetry();
+});
+</script></div>
+									<d2l-button-icon icon="tier1:close-default" onclick="D2L.O(&quot;__gctl_2&quot;,0)();" text="Dismiss banner"></d2l-button-icon>
+								</div>
+								<div class=" d2l-inline d2l-pulseapp-banner-new-section">
+									<div class=" d2l-inline d2l-pulseapp-diagonal-screenshots">
+										<img class="d2l-image" src="/d2l/img/0/Notifications.PulseApp.PulseDiagonalScreenshots.png?v=20.23.12.18824" style="width:2452px;height:1092px;" alt="iPhone with notifications received through Pulse on events within Brightspace." />
+									</div>
+								</div>
+							</div>
+							</div></div><div class="d2l-grid-container"><span style="display:none;" id="z_a_values"></span><div class="clear"></div><d2l-table-wrapper class="d2l-grid-wrapper d_gl"><table id="z_a" class="d2l-table d2l-grid d_gl" type="list" summary="List of grade items and their values" no-column-border=""><tr class="d_gh" header><th scope="col" class="d_hch d_gl">Grade Item</th><th scope="col" class="d_hch d_gr" style="padding-left:0.9em;">Points</th><th scope="col" class="d_hch d_gr" style="padding-left:0.9em;">Grade</th><th scope="col" class="d_hch d_gl" style="padding-left:1em;">Comments and Assessments</th></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>App</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_b" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_d"></label><input type="hidden" name="z_e" id="z_e" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_f" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_h">Customap</label><input type="hidden" name="z_i" value="Customap" id="z_i" /></div></div></div></div></div></td><td class="d_gt">&nbsp;</td></tr><tr class="d_gd"><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Letter Grade</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_j" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_l"></label><input type="hidden" name="z_m" id="z_m" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_n" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_p">C</label><input type="hidden" name="z_q" value="C" id="z_q" /></div></div></div></div></div></td><td class="d_gt">&nbsp;</td></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Final Product</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_r" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_t">69 / 100</label><input type="hidden" name="z_u" value="69 / 100" id="z_u" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_v" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_x">69 %</label><input type="hidden" name="z_y" value="69 %" id="z_y" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_9"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 100%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 99.7951%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 0px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;752&quot;/>&lt;col width=&quot;169&quot;/>&lt;col width=&quot;627&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>App:&lt;/td>
+&lt;td>Customap&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>URL:&lt;/td>
+&lt;td>
+&lt;div>
+&lt;div>&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https://customap416client-3b33f67d5c86.herokuapp.com/&quot;>https://customap416client-3b33f67d5c86.herokuapp.com/&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>TAs:&lt;/td>
+&lt;td>Kamal/Tasnim&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Accounts Management&lt;/td>
+&lt;td>Rating (0 - 10)&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can you create a new account with email and login name?&lt;/td>
+&lt;td>6.5&lt;/td>
+&lt;td># No Basic verification for email, phone* Carried the login error message to signup page (e.g. wrong email or password provided) * Passwords fields are not hidden * Doesn&amp;#39;t have any kind of field validation(email, phone). Can create an account with email &amp;quot;tas&amp;quot;&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does it prevent you from creating an account that already exists?&lt;/td>
+&lt;td>8&lt;/td>
+&lt;td># Email address is primary identifier. What&amp;#39;s the use of ID? ID is not unique here* only email needs to be different.&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does it give you quality feedback when you try to create an account that already exists?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Once created, can you login to your account from another browser?&lt;/td>
+&lt;td>9.5&lt;/td>
+&lt;td>* Signin/Login button name discrepancies. Need to be consistent across the app&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>If you use the wrong username/email credentials, does it give you good feedback?&lt;/td>
+&lt;td>8&lt;/td>
+&lt;td>* No client side validation before api call&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>If you use the wrong password, does it give you good feedback?&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>* No client side validation before api call&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can you change your account&amp;#39;s password?&lt;/td>
+&lt;td>8&lt;/td>
+&lt;td># Password change is more sensitive than name or email. Should have done it in separately&lt;br/># Should add proper feedback msg* passwords are not hidden during input&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>If you forgot your account password, is there a mechanism using email where you can retrieve or reset your password?&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td># OTP or reset password link could be sent to email or phone. It would provide more security* there is no email based reset password * they have their reset password based on id, phone and email match which is not a proper way and secure * 2 points for UI&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Landing Page&lt;/td>
+&lt;td>Rating (0 - 10)&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site present maps made by the user on the landing page after loging?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site present maps made by others on the landing page?&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td># Landing page doesn&amp;#39;t show others map* Users map can be found only in search section&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Search mechanisms provided&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>* keyboard enter button could have been used&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Filterable search results&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td># No filter Added* No option for filter&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Sortable search results&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>* There are options but not sure what is the criteria for ascending and descending * It has option for date sorting but no dates on the card&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Do the maps have a thumbnail representation of the larger actual map?&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td># No Thumbnail for actual map* It has thumbnail for each map type which is fixed. not generated from the actual map&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>File Interactions&lt;/td>
+&lt;td>Rating (0 - 10)&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site let users fork existing maps?&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td># Fork Doesn&amp;#39;t work* It doesn&amp;#39;t allow&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site let users export and download existing maps into an image format?&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>* Nice pdf option. * But it doesn&amp;#39;t allow export option for others map. I can export only for my map&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site let users download existing maps into json format?&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>* Can be done for my maps only&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site let one upload a downloaded map for further editing (map graphic, not just map geometry)?&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td># Can&amp;#39;t upload downloaded map* No other upload option&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user edit the name of their owned map?&lt;/td>
+&lt;td>9.5&lt;/td>
+&lt;td>* The option is there but you need press Edit Map in the bottom&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user publish maps or make them public/private?&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>* There is a public/private option but to me the toggle seems to do opposite. Hard to understand whether my map is now public or private&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Once public or published, can the user undo publishing or make them private again?&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>* Yes can be done from the same option above&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Community Interactions&lt;/td>
+&lt;td>Rating (0 - 10)&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site allow users to comment on maps?&lt;/td>
+&lt;td>4&lt;/td>
+&lt;td># Can&amp;#39;t comment* Users can comment in a basic way&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>How elaborate is the commenting system?&lt;/td>
+&lt;td>2.5&lt;/td>
+&lt;td># Can&amp;#39;t comment* Basic UI * No replies or nested comments mechanism * Can not be edited/deleted * Times are not there&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site allow user to rate or like maps?&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td># No rating system* Not implemented&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user message other users?&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td># No msg system* No messaging system&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Creation&lt;/td>
+&lt;td>Rating (0 - 10)&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can map creation be initiated by uploading an existing Shapefile map?&lt;/td>
+&lt;td>7.5&lt;/td>
+&lt;td># Initiated, but can&amp;#39;t see the map&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can map creation be initiated by uploading an existing KML map?&lt;/td>
+&lt;td>7.5&lt;/td>
+&lt;td># Initiated, but can&amp;#39;t see the map&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can map creation be initialited by uploading an existing GeoJSON file?&lt;/td>
+&lt;td>7.5&lt;/td>
+&lt;td># Initiated, but can&amp;#39;t see the map&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Types&lt;/td>
+&lt;td>Rating (0 - 10)&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 1 Display&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>Type: Heatmap&lt;br/># Should add legendType: Heatmap&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 1 Editing/Data Entry&lt;/td>
+&lt;td>8&lt;/td>
+&lt;td># No proper label* Editing option in the added data would have been nice * No legend?&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 2 Display&lt;/td>
+&lt;td>8&lt;/td>
+&lt;td>Type: Point Map&lt;br/># Added points, but no proper labeling to understand the pointsType: Point map&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 2 Editing/Data Entry&lt;/td>
+&lt;td>7.5&lt;/td>
+&lt;td># Can&amp;#39;t add proper text / label* Points are added fine, but interpretation of the points are not there * Points are all same * Data are not displayed in the map&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 3 Display&lt;/td>
+&lt;td>5.5&lt;/td>
+&lt;td>Type: Bubble Map&lt;br/># Almost similar to point map, can&amp;#39;t find any bubbleType: Bubble Map&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 3 Editing/Data Entry&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td># Can&amp;#39;t add proper text / label* From radius unit it is hard to predict how bigger the bubble is gonna be, I tried 10000 turned out to be a small bubble * Again same issue editing data * Legends based on the color would have been nice&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 4 Display&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>Type: Thematic Map&lt;br/># Nice coloring displayType: Thematic map&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 4 Editing/Data Entry&lt;/td>
+&lt;td>7&lt;/td>
+&lt;td># Value range and color mapping should be editable* It has legends * I think I encountered a bug related to area selection. It was not selecting anything and I could not add data to zone. It was being selected as whole region&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 5 Display&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>Type: Choropleth Map&lt;br/># Should add legendsType: Choropleth&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Type 5 Editing/Data Entry&lt;/td>
+&lt;td>7&lt;/td>
+&lt;td>* Same selection related issue like above&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Features&lt;/td>
+&lt;td>Rating (0 - 10)&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user add a title to a map?&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td># No title can be added&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user format the text on a map?&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>* No such option&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user add a legend to the map?&lt;/td>
+&lt;td>4&lt;/td>
+&lt;td># Maximum map has no legend* There is legend only in a particular map type not for all&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user set the background color?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Are there other quality formatting features?&lt;/td>
+&lt;td>2.5&lt;/td>
+&lt;td># No other features added* The right side data panel is informative and useful&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Undo/Redo&lt;/td>
+&lt;td>Rating (0 - 10)&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does undo/redo work for all map data editing?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does undo/redo work for all map properties/graphics editing?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>User Interface&lt;/td>
+&lt;td>Rating (0 - 10)&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Is the user interface nicely laid out in most screens?&lt;/td>
+&lt;td>7.5&lt;/td>
+&lt;td># No loading sign. hard to understand what&amp;#39;s going on after a click&lt;br/># webite is slow* Comments are too basic * They have done good job on making the front home page&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Are there any screens with particular UI problems?&lt;/td>
+&lt;td>7&lt;/td>
+&lt;td># Sign up button should add in front page&lt;br/># Home icon should work* Delete should have a confirmation popup * Legends are way hidden on the left of the screen, you really need to be a detective to detect it&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site use nice complementary color combinations?&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>* They have used their complementary color scheme well&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Is the site nicely designed?&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>* Overall good with some UX related issues - public/private * Map creation process may need improvements * Public map or community section is too hidden under search, they should have been in a prominent location * Home page is not used, it is just a static page&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site employ foolproof design so that controls that are not usable at any given time are either deactivated or hidden?&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>* Found one issue related to cancel in the map creation, it doesn&amp;#39;t do anything, stays at the same place&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site provide quality feedback like error messages or modals when the user does something they shouldn&amp;#39;t do?&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>* They have popup based feedback. In app toast or feedback can improve the overall UX&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Does the site effectively use site branding so the user always knows where they are?&lt;/td>
+&lt;td>9.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr class="d_gd"><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Final Project Document</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_z" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_bb">100 / 100</label><input type="hidden" name="z_bc" value="100 / 100" id="z_bc" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_bd" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_bf">100 %</label><input type="hidden" name="z_bg" value="100 %" id="z_bg" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_13"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;p>The document is complete, well organized, and well formatted.&lt;/p>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Final Presentation</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_bh" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_bj">70 / 100</label><input type="hidden" name="z_bk" value="70 / 100" id="z_bk" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_bl" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_bn">70 %</label><input type="hidden" name="z_bo" value="70 %" id="z_bo" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_17"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;p>The team demonstrated some good functionality during their presentation, though there were at times some technical difficulties. Weikang covered dark mode, also dashboard and provided good enough descriptions. Seolhee covered search and did fine in this segment. Showed view of users and the maps they have created. Layout and style, app banner, login page, some ui. Juyeon started the presentation with an overview of the site welcome page and demonstrated user profile page. Did fine in this portion of the presentation. Needs to work on English a bit but ok overall. Shihao was very difficult to understand. Need to work on English, not descriptive at all in explanations. Showed some good functionality for map editing but very difficult to follow at times. &amp;#160; &amp;#160;&amp;#160;&lt;br/>&amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160;&amp;#160;&lt;br/>Note, password should not be visible by default when making a new account or logging in. The User interface looks nice but UI for editing maps is a little clunky. Team provided some confusing and conflicting answers to my questions and during the questions and answers segment I had a very difficult time communicating with them. The team has some good implementation but needs to work on communication skills. &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160;&lt;/p>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr class="d_gd"><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Code Presentation</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_bp" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_br">65 / 100</label><input type="hidden" name="z_bs" value="65 / 100" id="z_bs" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_bt" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_bv">65 %</label><input type="hidden" name="z_bw" value="65 %" id="z_bw" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_21"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;p>Weikang, note reading from a script is less personal, also, make sure you don&amp;#39;t mispronounce words you are reading as it appears as though you didn&amp;#39;t write them &amp;#160; &amp;#160;went a bit too quickly during some slides, they were gone before i could even understand them. Seolhee also reading from a script as well. A bit hard to understand at times. Try your best to speak to the audience, not the screen. Juyeon also reading from a script. Shihao &amp;#160;was very difficult to follow, using terms like Exploration that are not pronounced in a way that can be understood, this segment was very difficult to understand, also reading paragraphs of text in slides. The presentation slides are fine, but the presentation didn&amp;#39;t do well relating what is being said to the slides. I understand why one might want to read from a script but it comes across as very impersonal. The team also seemed not to understand audience questions and didn&amp;#39;t provide understandable answers.&lt;/p>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>CSE 416 Exam</label><a title="View statistics for CSE 416 Exam" href="javascript://" onclick="ShowGradeObjectStatisticsDialog( 8418478, 203477 );return false;" class="di_l d2l-link"><span class="di_s" style="margin-left:0.5em;" ><img src="/d2l/img/0/Grades.Main.actItemStatistics.gif?v=20.23.12.18824" class="di_i" alt="View statistics for CSE 416 Exam" title="View statistics for CSE 416 Exam" style="width:16px;height:16px;"/></span></a></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_bx" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_bz">12 / 100</label><input type="hidden" name="z_ca" value="12 / 100" id="z_ca" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_cb" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_cd">12 %</label><input type="hidden" name="z_ce" value="12 %" id="z_ce" /></div></div></div></div></div></td><td class="d_gt">&nbsp;</td></tr><tr class="d_gd"><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Progress Review #5</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_cf" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_ch">100 / 100</label><input type="hidden" name="z_ci" value="100 / 100" id="z_ci" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_cj" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_cl">100 %</label><input type="hidden" name="z_cm" value="100 %" id="z_cm" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_27"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 103.933%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 100%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 568px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;277&quot; style=&quot;width: 197px;&quot;/>&lt;col width=&quot;56&quot; style=&quot;width: 116px;&quot;/>&lt;col width=&quot;61&quot; style=&quot;width: 112px;&quot;/>&lt;col width=&quot;739&quot; style=&quot;width: 144px;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;strong>Requirements&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Criteria&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Earned&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Comments&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>For Each Scheduled Use Case for Build #5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---System Testing (done live by TA)&lt;/td>
+&lt;td>50&lt;/td>
+&lt;td>50&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---Front-End Tested (Cypress IO)?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---Back-End Tested (SuperTest/Jest)?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---UI Style&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>CI/CD deployment&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>CI/CD runs tests&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Version Control Properly Used&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Monday schedule maintained properly&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;strong>Progress Review #5 Grade:&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>100&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>100&lt;/strong>&lt;/td>
+&lt;td>Add Readme.md file in Git.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Progress Review #4</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_cn" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_cp">100 / 100</label><input type="hidden" name="z_cq" value="100 / 100" id="z_cq" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_cr" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_ct">100 %</label><input type="hidden" name="z_cu" value="100 %" id="z_cu" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_31"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 103.933%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 100%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 568px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;277&quot; style=&quot;width: 197px;&quot;/>&lt;col width=&quot;56&quot; style=&quot;width: 116px;&quot;/>&lt;col width=&quot;61&quot; style=&quot;width: 112px;&quot;/>&lt;col width=&quot;739&quot; style=&quot;width: 144px;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;strong>Requirements&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Criteria&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Earned&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Comments&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>For Each Scheduled Use Case for Build #4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---System Testing (done live by TA)&lt;/td>
+&lt;td>50&lt;/td>
+&lt;td>50&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---Front-End Tested (Cypress IO)?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---Back-End Tested (SuperTest/Jest)?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---UI Style&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>Need to improve UI (Make it visually beautiful)&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>CI/CD deployment&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>CI/CD runs tests&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Version Control Properly Used&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Monday schedule maintained properly&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;strong>Progress Review #4 Grade:&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>100&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>100&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr class="d_gd"><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Progress Review #3</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_cv" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_cx">95 / 100</label><input type="hidden" name="z_cy" value="95 / 100" id="z_cy" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_cz" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_db">95 %</label><input type="hidden" name="z_dc" value="95 %" id="z_dc" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_35"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 99.9313%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 99.7938%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 558px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;277&quot; style=&quot;width: 190px;&quot;/>&lt;col width=&quot;56&quot; style=&quot;width: 109px;&quot;/>&lt;col width=&quot;61&quot; style=&quot;width: 105px;&quot;/>&lt;col width=&quot;739&quot; style=&quot;width: 152px;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;strong>Requirements&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Criteria&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Earned&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Comments&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>For Each Scheduled Use Case for Build #3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---System Testing (done live by TA)&lt;/td>
+&lt;td>50&lt;/td>
+&lt;td>50&lt;/td>
+&lt;td>Added Features as per the schedule and updates are visible clearly&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---Front-End Tested (Cypress IO)?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>8&lt;/td>
+&lt;td>Add More Test cases&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---Back-End Tested (SuperTest/Jest)?&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>Add More Test cases&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>---UI Style&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>UI Style can be improved&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>CI/CD deployment&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>4&lt;/td>
+&lt;td>Add pipeline steps to git hub actions deployment.&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>CI/CD runs tests&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Version Control Properly Used&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Monday schedule maintained properly&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;strong>Progress Review #3 Grade:&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>100&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>95&lt;/strong>&lt;/td>
+&lt;td>Nice work keep it going!&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Progress Review #2</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_dd" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_df">90 / 100</label><input type="hidden" name="z_dg" value="90 / 100" id="z_dg" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_dh" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_dj">90 %</label><input type="hidden" name="z_dk" value="90 %" id="z_dk" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_39"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 102.615%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 100%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 545px;height: 809.583px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;403&quot; style=&quot;width: 195px;&quot;/>&lt;col width=&quot;84&quot; style=&quot;width: 111px;&quot;/>&lt;col width=&quot;61&quot; style=&quot;width: 82px;&quot;/>&lt;col width=&quot;721&quot; style=&quot;width: 157px;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 27.9167px;&quot;>
+&lt;td style=&quot;height: 27.9167px;&quot;>Requirements&lt;/td>
+&lt;td style=&quot;height: 27.9167px;&quot;>Criteria&lt;/td>
+&lt;td style=&quot;height: 27.9167px;&quot;>Earned&lt;/td>
+&lt;td style=&quot;height: 27.9167px;&quot;>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 55.8333px;&quot;>
+&lt;td style=&quot;height: 55.8333px;&quot;>App Deployed with views&lt;/td>
+&lt;td style=&quot;height: 55.8333px;&quot;>5&lt;/td>
+&lt;td style=&quot;height: 55.8333px;&quot;>5&lt;/td>
+&lt;td style=&quot;height: 55.8333px;&quot;>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 83.75px;&quot;>
+&lt;td style=&quot;height: 83.75px;&quot;>Deployed App Committed to Version Control&lt;/td>
+&lt;td style=&quot;height: 83.75px;&quot;>5&lt;/td>
+&lt;td style=&quot;height: 83.75px;&quot;>5&lt;/td>
+&lt;td style=&quot;height: 83.75px;&quot;>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 83.75px;&quot;>
+&lt;td style=&quot;height: 83.75px;&quot;>Verify CI/CD still in use, watch deployment happen&lt;/td>
+&lt;td style=&quot;height: 83.75px;&quot;>10&lt;/td>
+&lt;td style=&quot;height: 83.75px;&quot;>10&lt;/td>
+&lt;td style=&quot;height: 83.75px;&quot;>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 223.333px;&quot;>
+&lt;td style=&quot;height: 223.333px;&quot;>Views for each UI Model View&lt;/td>
+&lt;td style=&quot;height: 223.333px;&quot;>80&lt;/td>
+&lt;td style=&quot;height: 223.333px;&quot;>70&lt;/td>
+&lt;td style=&quot;height: 223.333px;&quot;>Can Improve better on the UI side, making it visually heavy and creative. Add me more creativity and features.&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 55.8333px;&quot;>
+&lt;td style=&quot;height: 55.8333px;&quot;>--look as good stylistically&lt;/td>
+&lt;td style=&quot;height: 55.8333px;&quot;>&lt;/td>
+&lt;td style=&quot;height: 55.8333px;&quot;>&lt;/td>
+&lt;td style=&quot;height: 55.8333px;&quot;>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 83.75px;&quot;>
+&lt;td style=&quot;height: 83.75px;&quot;>--properly laid out with representative data&lt;/td>
+&lt;td style=&quot;height: 83.75px;&quot;>&lt;/td>
+&lt;td style=&quot;height: 83.75px;&quot;>&lt;/td>
+&lt;td style=&quot;height: 83.75px;&quot;>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 195.417px;&quot;>
+&lt;td style=&quot;height: 195.417px;&quot;>Progress Review #2 Grade:&lt;/td>
+&lt;td style=&quot;height: 195.417px;&quot;>100&lt;/td>
+&lt;td style=&quot;height: 195.417px;&quot;>90&lt;/td>
+&lt;td style=&quot;height: 195.417px;&quot;>Well done guys, you have improved a lot from the previous presentation. Keep it going.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr class="d_gd"><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Progress Review #1</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_dl" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_dn">80 / 100</label><input type="hidden" name="z_do" value="80 / 100" id="z_do" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_dp" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_dr">80 %</label><input type="hidden" name="z_ds" value="80 %" id="z_ds" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_43"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 99.9313%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 99.7938%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 0px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;405&quot; style=&quot;width: 140px;&quot;/>&lt;col width=&quot;67&quot; style=&quot;width: 82px;&quot;/>&lt;col width=&quot;59&quot; style=&quot;width: 78px;&quot;/>&lt;col width=&quot;644&quot; style=&quot;width: 153px;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Model Requirements&lt;/td>
+&lt;td>Criteria&lt;/td>
+&lt;td>Earned&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Version Control Setup&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>React Client-Express Server-Back-End Database Project Deployed to Live Server&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>No Live Server used for the deployment&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Deployed App Demonstrates DB Get and Put from front-end React Interactions should update database and produce visible results in React client pulled from database&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>Database: MongoDB, unable to connect to server, but only visible in localhost.&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>At least 2 Front-End tests employing CypressIO&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>At least 2 Back-End tests employing Jest and SuperTest&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>GitHub Actions Setup&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>GitHub Actions running tests and deploying app upon commit&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>12&lt;/td>
+&lt;td>Make a deploy pipeline for better implementation of CI/CD instead of individual actions.&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Monday Project Setup with Complete Build Schedule&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>18&lt;/td>
+&lt;td>Can do better by explaining each Build with its importance and dependencies.&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Data Model Model Grade:&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>80&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Software Model - Group Project</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_dt" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_dv">80 / 100</label><input type="hidden" name="z_dw" value="80 / 100" id="z_dw" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_dx" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_dz">80 %</label><input type="hidden" name="z_ea" value="80 %" id="z_ea" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_47"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 100.035%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 99.8594%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 0px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;277&quot;/>&lt;col width=&quot;56&quot;/>&lt;col width=&quot;61&quot;/>&lt;col width=&quot;739&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Graded by:&lt;/td>
+&lt;td>
+&lt;div>
+&lt;div>McKenna&lt;/div>
+&lt;/div>
+&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https://www3.cs.stonybrook.edu/~cse416/Sections02and03/hw/GroupProjectSoftwareModel.html&quot;>https://www3.cs.stonybrook.edu/~cse416/Sections02and03/hw/GroupProjectSoftwareModel.html&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https://www3.cs.stonybrook.edu/~cse416/Sections02and03/hw/GroupProjectSystemAnalysis.html&quot;>https://www3.cs.stonybrook.edu/~cse416/Sections02and03/hw/GroupProjectSystemAnalysis.html&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Model Requirements&lt;/td>
+&lt;td>Criteria&lt;/td>
+&lt;td>Earned&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Domain Analysis&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Complete Technology Set&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Training Verification&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Front-End Composition Diagram&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>Excellent detail&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Front-End Component Design&lt;/td>
+&lt;td>35&lt;/td>
+&lt;td>22&lt;/td>
+&lt;td>Store could use some further decomposition, missing transactions for undo/redo system&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Back-End API&lt;/td>
+&lt;td>35&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>Controllers could use some further decomposition&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Software Design Grade:&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>80&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr class="d_gd"><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Data Model - Group Project</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_eb" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_ed">84 / 100</label><input type="hidden" name="z_ee" value="84 / 100" id="z_ee" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_ef" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_eh">84 %</label><input type="hidden" name="z_ei" value="84 %" id="z_ei" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_51"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 100%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 99.8185%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 0px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;277&quot;/>&lt;col width=&quot;56&quot;/>&lt;col width=&quot;61&quot;/>&lt;col width=&quot;739&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Graded by: McKenna&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Assignment: &lt;a rel=&quot;noopener&quot; href=&quot;https://www3.cs.stonybrook.edu/~cse416/Sections02and03/hw/GroupProjectDataModel.html&quot;>https://www3.cs.stonybrook.edu/~cse416/Sections02and03/hw/GroupProjectDataModel.html&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Project: &lt;a rel=&quot;noopener&quot; href=&quot;https://www3.cs.stonybrook.edu/~cse416/Sections02and03/hw/GroupProjectSystemAnalysis.html&quot;>https://www3.cs.stonybrook.edu/~cse416/Sections02and03/hw/GroupProjectSystemAnalysis.html&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Model Requirements&lt;/td>
+&lt;td>Criteria&lt;/td>
+&lt;td>Earned&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Account Login Name/email&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Hashed Password&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>4&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Ownership&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map-Associated Data&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>how about data for the various types of maps? I guess properties, but those are a bit vague&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Formatting&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>will require additional map formatting data for proper customization&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Storage&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>not clear how maps will be stored&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Community-Related Data&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Data Model Model Grade:&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>84&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Requirements Video Presentation - Group Project</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_ej" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_el">70 / 100</label><input type="hidden" name="z_em" value="70 / 100" id="z_em" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_en" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_ep">70 %</label><input type="hidden" name="z_eq" value="70 %" id="z_eq" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_55"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;p>The introduction was a bit difficult to follow as the speaker was unsure how to pronounce many of the words. Was it written by your team or ChatGPT? Try not to read slide textual paragraphs. Note, the maps used in the presentation don&amp;#39;t seem to be the types of maps your application will be able to use. Note, the Map Edit Screen wasn&amp;#39;t described regarding how it could be used to edit different types of maps. The presentation covered much of the application but the team struggled a bit with the map portion in particular and had difficulty reading the scripts.&lt;/p>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr class="d_gd"><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>UI Model - Group Project</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_er" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_et">85 / 100</label><input type="hidden" name="z_eu" value="85 / 100" id="z_eu" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_ev" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_ex">85 %</label><input type="hidden" name="z_ey" value="85 %" id="z_ey" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_59"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 100.037%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 99.7976%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 0px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;205&quot;/>&lt;col width=&quot;100&quot;/>&lt;col width=&quot;158&quot;/>&lt;col width=&quot;377&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Functionality&lt;/td>
+&lt;td>Criteria&lt;/td>
+&lt;td>Earned&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Account Management Views&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>File Management Views&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Graphic Editing Views&lt;/td>
+&lt;td>40&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>
+&lt;div>
+&lt;div>still some things to work out, like how all the data needed for the various map types will be entered and edited by the user&lt;/div>
+&lt;/div>
+&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Search Views&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Community Views&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Use Case Model Grade:&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>85&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Use Case Model - Group Project</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_ez" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_fb">85 / 100</label><input type="hidden" name="z_fc" value="85 / 100" id="z_fc" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_fd" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_ff">85 %</label><input type="hidden" name="z_fg" value="85 %" id="z_fg" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_63"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 100.037%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 99.7976%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 0px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;205&quot;/>&lt;col width=&quot;100&quot;/>&lt;col width=&quot;158&quot;/>&lt;col width=&quot;100&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Functionality&lt;/td>
+&lt;td>Criteria&lt;/td>
+&lt;td>Earned&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Account Creation&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Login&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Logout&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Password Recovery or Reset&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Setting Map Ownership (public/private/etc.)&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Uploading SHP/GeoJSON files&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Forking Existing Maps&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Naming and Renaming Maps&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Deleting Maps&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Edit Map Graphics&lt;/td>
+&lt;td>25&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>
+&lt;div>
+&lt;div>Good, but could use more detail regarding how editing will work&lt;/div>
+&lt;/div>
+&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Edit Map Data&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>
+&lt;div>
+&lt;div>Remember, use case story steps should really be actions, so it&amp;#39;s good to start with verbs&lt;/div>
+&lt;/div>
+&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Undo/Redo&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Exporting&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Search&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Community Interactions&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Use Case Model Grade:&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>85&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr class="d_gd"><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Systems Analysis - Group Project</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_fh" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_fj">69 / 100</label><input type="hidden" name="z_fk" value="69 / 100" id="z_fk" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_fl" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_fn">69 %</label><input type="hidden" name="z_fo" value="69 %" id="z_fo" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_67"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 100.037%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 99.7976%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 0px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;205&quot;/>&lt;col width=&quot;100&quot;/>&lt;col width=&quot;158&quot;/>&lt;col width=&quot;100&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Section&lt;/td>
+&lt;td>Points Value&lt;/td>
+&lt;td>Points Earned&lt;/td>
+&lt;td>Comments&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Executive Summary&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Objectives&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Strategies/Philosophies&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Constraints&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Actors&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Services&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Map Graphic Types&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>
+&lt;div>
+&lt;div>No map graphics types described or images provided demonstrating what your app will produce&lt;/div>
+&lt;/div>
+&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>69&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr><tr><th scope="row"  class="d_gt d_ich"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c"><label>Discovery - Group Project</label></div></div></div></div></th><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_fp" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_fr">90 / 100</label><input type="hidden" name="z_fs" value="90 / 100" id="z_fs" /></div></div></div></div></div></div></div></td><td class="d_gn d_gr d_gt"><div class="dco"><div class="dco_c" style="text-align:right;"><div style="text-align:center;display:inline;"><div class="dco" id="z_ft" style="display:inline;"><div class="dco_c" style="display:inline;"><label id="z_fv">90 %</label><input type="hidden" name="z_fw" value="90 %" id="z_fw" /></div></div></div></div></div></td><td class="d_gt"><div class="dco d2l-grades-individualcommentlabelcontainer" style="margin-bottom:0.9em;"><div class="dco_c"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_71"><d2l-html-block html="&lt;div class=&quot;feedback-container&quot;>&lt;div class=&quot;name&quot;>Overall Feedback&lt;/div>&lt;div class=&quot;feedback&quot;>&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse;width: 100.069%;&quot;>&lt;colgroup>&lt;col style=&quot;width: 99.8621%;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;table style=&quot;width: 490px;&quot; border=&quot;1&quot; dir=&quot;ltr&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;>&lt;colgroup>&lt;col width=&quot;440&quot; style=&quot;width: 218px;&quot;/>&lt;col width=&quot;125&quot; style=&quot;width: 65px;&quot;/>&lt;col width=&quot;100&quot; style=&quot;width: 79px;&quot;/>&lt;col width=&quot;170&quot; style=&quot;width: 127px;&quot;/>&lt;/colgroup>
+&lt;tbody>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>&lt;/td>
+&lt;td>&lt;strong>Points Available&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Earned Points&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Comments&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user load and view a Shapefile map?&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user load and view a GeoJSON map?&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Can the user load and view a KML map?&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Are map labels of subregions rendered on map at proper locations?&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>Failed to load the subregions for Shape file. Found annotation but missing textual label&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Zoom In and Out via Mouse Wheel&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Mouse dragging for map panning&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr style=&quot;height: 21px;&quot;>
+&lt;td>Discovery:&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>90&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>&lt;/div>&lt;/div>" inline></d2l-html-block></div></div></div></div></td></tr></table></d2l-table-wrapper></div>
+							<input type="hidden" name="d2l_controlMap" value="[{&quot;grid_gradeitems&quot;:[&quot;z_a&quot;,&quot;Grid&quot;,[2,0,0,0,1,1,&quot;&quot;,0,1,{},{},[&quot;h1&quot;,&quot;i00100100011100_i1_8116412_00000000&quot;,[&quot;App&quot;,&quot;&quot;],&quot;i00100110011000_i2_8895119_00000000&quot;,[&quot;Letter Grade&quot;,&quot;&quot;],&quot;i00100100011000_i3_8759339_00000000&quot;,[&quot;Final Product&quot;,&quot;&quot;],&quot;i00100110011000_i4_8771237_00000000&quot;,[&quot;Final Project Document&quot;,&quot;&quot;],&quot;i00100100011000_i5_8759336_00000000&quot;,[&quot;Final Presentation&quot;,&quot;&quot;],&quot;i00100110011000_i6_8759334_00000000&quot;,[&quot;Code Presentation&quot;,&quot;&quot;],&quot;i00100100011000_i7_8418478_00000000&quot;,[&quot;CSE 416 Exam&quot;,&quot;&quot;],&quot;i00100110011000_i8_8618614_00000000&quot;,[&quot;Progress Review #5&quot;,&quot;&quot;],&quot;i00100100011000_i9_8526027_00000000&quot;,[&quot;Progress Review #4&quot;,&quot;&quot;],&quot;i00100110011000_i10_8489749_00000000&quot;,[&quot;Progress Review #3&quot;,&quot;&quot;],&quot;i00100100011000_i11_8435877_00000000&quot;,[&quot;Progress Review #2&quot;,&quot;&quot;],&quot;i00100110011000_i12_8344613_00000000&quot;,[&quot;Progress Review #1&quot;,&quot;&quot;],&quot;i00100100011000_i13_8273927_00000000&quot;,[&quot;Software Model - Group Project&quot;,&quot;&quot;],&quot;i00100110011000_i14_8177844_00000000&quot;,[&quot;Data Model - Group Project&quot;,&quot;&quot;],&quot;i00100100011000_i15_8177841_00000000&quot;,[&quot;Requirements Video Presentation - Group Project&quot;,&quot;&quot;],&quot;i00100110011000_i16_8148524_00000000&quot;,[&quot;UI Model - Group Project&quot;,&quot;&quot;],&quot;i00100100011000_i17_8103016_00000000&quot;,[&quot;Use Case Model - Group Project&quot;,&quot;&quot;],&quot;i00100110011000_i18_8052184_00000000&quot;,[&quot;Systems Analysis - Group Project&quot;,&quot;&quot;],&quot;i00100100001010_i19_8013300_00000000&quot;,[&quot;Discovery - Group Project&quot;,&quot;&quot;]],0,&quot;&quot;,&quot;GradeItems&quot;],{},0,1],&quot;dg_showgrade&quot;:[&quot;z_c&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ph_readonly&quot;:[&quot;z_f&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;lbl_view&quot;:[&quot;z_h&quot;,&quot;Label&quot;,[],{},0,1],&quot;hdn_view&quot;:[&quot;z_i&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_messagearea&quot;:[&quot;z_fx&quot;,&quot;MessageArea&quot;,[&quot;d_content_inner&quot;,&quot;d_page_header&quot;,0,[],null],{},0,0]},{&quot;ph_readonly&quot;:{&quot;8116412-203477-grade&quot;:[&quot;z_b&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8895119-203477-grade&quot;:[&quot;z_j&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_3&quot;:[&quot;z_n&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8759339-203477-grade&quot;:[&quot;z_r&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_8&quot;:[&quot;z_v&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8771237-203477-grade&quot;:[&quot;z_z&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_13&quot;:[&quot;z_bd&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8759336-203477-grade&quot;:[&quot;z_bh&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_18&quot;:[&quot;z_bl&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8759334-203477-grade&quot;:[&quot;z_bp&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_23&quot;:[&quot;z_bt&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8418478-203477-grade&quot;:[&quot;z_bx&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_28&quot;:[&quot;z_cb&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8618614-203477-grade&quot;:[&quot;z_cf&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_33&quot;:[&quot;z_cj&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8526027-203477-grade&quot;:[&quot;z_cn&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_38&quot;:[&quot;z_cr&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8489749-203477-grade&quot;:[&quot;z_cv&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_43&quot;:[&quot;z_cz&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8435877-203477-grade&quot;:[&quot;z_dd&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_48&quot;:[&quot;z_dh&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8344613-203477-grade&quot;:[&quot;z_dl&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_53&quot;:[&quot;z_dp&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8273927-203477-grade&quot;:[&quot;z_dt&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_58&quot;:[&quot;z_dx&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8177844-203477-grade&quot;:[&quot;z_eb&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_63&quot;:[&quot;z_ef&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8177841-203477-grade&quot;:[&quot;z_ej&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_68&quot;:[&quot;z_en&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8148524-203477-grade&quot;:[&quot;z_er&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_73&quot;:[&quot;z_ev&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8103016-203477-grade&quot;:[&quot;z_ez&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_78&quot;:[&quot;z_fd&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8052184-203477-grade&quot;:[&quot;z_fh&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_83&quot;:[&quot;z_fl&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;8013300-203477-grade&quot;:[&quot;z_fp&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;ctl_88&quot;:[&quot;z_ft&quot;,&quot;Container&quot;,[0,0,0,1,1,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1]},&quot;lbl_view&quot;:{&quot;8116412-203477-grade&quot;:[&quot;z_d&quot;,&quot;Label&quot;,[],{},0,1],&quot;8895119-203477-grade&quot;:[&quot;z_l&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_5&quot;:[&quot;z_p&quot;,&quot;Label&quot;,[],{},0,1],&quot;8759339-203477-grade&quot;:[&quot;z_t&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_10&quot;:[&quot;z_x&quot;,&quot;Label&quot;,[],{},0,1],&quot;8771237-203477-grade&quot;:[&quot;z_bb&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_15&quot;:[&quot;z_bf&quot;,&quot;Label&quot;,[],{},0,1],&quot;8759336-203477-grade&quot;:[&quot;z_bj&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_20&quot;:[&quot;z_bn&quot;,&quot;Label&quot;,[],{},0,1],&quot;8759334-203477-grade&quot;:[&quot;z_br&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_25&quot;:[&quot;z_bv&quot;,&quot;Label&quot;,[],{},0,1],&quot;8418478-203477-grade&quot;:[&quot;z_bz&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_30&quot;:[&quot;z_cd&quot;,&quot;Label&quot;,[],{},0,1],&quot;8618614-203477-grade&quot;:[&quot;z_ch&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_35&quot;:[&quot;z_cl&quot;,&quot;Label&quot;,[],{},0,1],&quot;8526027-203477-grade&quot;:[&quot;z_cp&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_40&quot;:[&quot;z_ct&quot;,&quot;Label&quot;,[],{},0,1],&quot;8489749-203477-grade&quot;:[&quot;z_cx&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_45&quot;:[&quot;z_db&quot;,&quot;Label&quot;,[],{},0,1],&quot;8435877-203477-grade&quot;:[&quot;z_df&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_50&quot;:[&quot;z_dj&quot;,&quot;Label&quot;,[],{},0,1],&quot;8344613-203477-grade&quot;:[&quot;z_dn&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_55&quot;:[&quot;z_dr&quot;,&quot;Label&quot;,[],{},0,1],&quot;8273927-203477-grade&quot;:[&quot;z_dv&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_60&quot;:[&quot;z_dz&quot;,&quot;Label&quot;,[],{},0,1],&quot;8177844-203477-grade&quot;:[&quot;z_ed&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_65&quot;:[&quot;z_eh&quot;,&quot;Label&quot;,[],{},0,1],&quot;8177841-203477-grade&quot;:[&quot;z_el&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_70&quot;:[&quot;z_ep&quot;,&quot;Label&quot;,[],{},0,1],&quot;8148524-203477-grade&quot;:[&quot;z_et&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_75&quot;:[&quot;z_ex&quot;,&quot;Label&quot;,[],{},0,1],&quot;8103016-203477-grade&quot;:[&quot;z_fb&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_80&quot;:[&quot;z_ff&quot;,&quot;Label&quot;,[],{},0,1],&quot;8052184-203477-grade&quot;:[&quot;z_fj&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_85&quot;:[&quot;z_fn&quot;,&quot;Label&quot;,[],{},0,1],&quot;8013300-203477-grade&quot;:[&quot;z_fr&quot;,&quot;Label&quot;,[],{},0,1],&quot;ctl_90&quot;:[&quot;z_fv&quot;,&quot;Label&quot;,[],{},0,1]},&quot;hdn_view&quot;:{&quot;8116412-203477-grade&quot;:[&quot;z_e&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8895119-203477-grade&quot;:[&quot;z_m&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_6&quot;:[&quot;z_q&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8759339-203477-grade&quot;:[&quot;z_u&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_11&quot;:[&quot;z_y&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8771237-203477-grade&quot;:[&quot;z_bc&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_16&quot;:[&quot;z_bg&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8759336-203477-grade&quot;:[&quot;z_bk&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_21&quot;:[&quot;z_bo&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8759334-203477-grade&quot;:[&quot;z_bs&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_26&quot;:[&quot;z_bw&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8418478-203477-grade&quot;:[&quot;z_ca&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_31&quot;:[&quot;z_ce&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8618614-203477-grade&quot;:[&quot;z_ci&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_36&quot;:[&quot;z_cm&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8526027-203477-grade&quot;:[&quot;z_cq&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_41&quot;:[&quot;z_cu&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8489749-203477-grade&quot;:[&quot;z_cy&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_46&quot;:[&quot;z_dc&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8435877-203477-grade&quot;:[&quot;z_dg&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_51&quot;:[&quot;z_dk&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8344613-203477-grade&quot;:[&quot;z_do&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_56&quot;:[&quot;z_ds&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8273927-203477-grade&quot;:[&quot;z_dw&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_61&quot;:[&quot;z_ea&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8177844-203477-grade&quot;:[&quot;z_ee&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_66&quot;:[&quot;z_ei&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8177841-203477-grade&quot;:[&quot;z_em&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_71&quot;:[&quot;z_eq&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8148524-203477-grade&quot;:[&quot;z_eu&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_76&quot;:[&quot;z_ey&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8103016-203477-grade&quot;:[&quot;z_fc&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_81&quot;:[&quot;z_fg&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8052184-203477-grade&quot;:[&quot;z_fk&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_86&quot;:[&quot;z_fo&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;8013300-203477-grade&quot;:[&quot;z_fs&quot;,&quot;Hidden&quot;,[],{},0,1],&quot;ctl_91&quot;:[&quot;z_fw&quot;,&quot;Hidden&quot;,[],{},0,1]},&quot;dg_showgrade&quot;:{&quot;ctl_1&quot;:[&quot;z_g&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_2&quot;:[&quot;z_k&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_4&quot;:[&quot;z_o&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_7&quot;:[&quot;z_s&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_9&quot;:[&quot;z_w&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_12&quot;:[&quot;z_ba&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_14&quot;:[&quot;z_be&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_17&quot;:[&quot;z_bi&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_19&quot;:[&quot;z_bm&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_22&quot;:[&quot;z_bq&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_24&quot;:[&quot;z_bu&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_27&quot;:[&quot;z_by&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_29&quot;:[&quot;z_cc&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_32&quot;:[&quot;z_cg&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_34&quot;:[&quot;z_ck&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_37&quot;:[&quot;z_co&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_39&quot;:[&quot;z_cs&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_42&quot;:[&quot;z_cw&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_44&quot;:[&quot;z_da&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_47&quot;:[&quot;z_de&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_49&quot;:[&quot;z_di&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_52&quot;:[&quot;z_dm&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_54&quot;:[&quot;z_dq&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_57&quot;:[&quot;z_du&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_59&quot;:[&quot;z_dy&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_62&quot;:[&quot;z_ec&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_64&quot;:[&quot;z_eg&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_67&quot;:[&quot;z_ek&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_69&quot;:[&quot;z_eo&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_72&quot;:[&quot;z_es&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_74&quot;:[&quot;z_ew&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_77&quot;:[&quot;z_fa&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_79&quot;:[&quot;z_fe&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_82&quot;:[&quot;z_fi&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_84&quot;:[&quot;z_fm&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_87&quot;:[&quot;z_fq&quot;,&quot;DisplayGroup&quot;,[1],{},0,1],&quot;ctl_89&quot;:[&quot;z_fu&quot;,&quot;DisplayGroup&quot;,[1],{},0,1]}}]" />
+							<input type="hidden" name="d2l_state" value="[{&quot;3&quot;:[&quot;grid&quot;,&quot;pagesize&quot;,&quot;htmleditor&quot;,&quot;hpg&quot;],&quot;1&quot;:[&quot;gridpagenum&quot;,&quot;search&quot;,&quot;pagenum&quot;],&quot;2&quot;:[&quot;lcs&quot;]},[]]" />
+							<input type="hidden" name="d2l_referrer" value="pxXZT77Mikuznxc7zUohQRaQ2laYBjeE" />
+						</div>
+					</form>
+				</div></div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="clear"></div>
+<script>
+	UI.Init();
+	D2L.OR["__gctl_1"] = {};
+	D2L.OR["__gctl_1"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.PT.Auth.SessionTimeout.Init\",\"P\":[\"203477\",180,5,{\"_type\":\"id\",\"Value\":\"d2l_sessionExpiryWarning\"},\"d2l_sessionExpiryAlert\",\"d2l_sessionExpiryCheck\",{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Rpc.ConnectObject\",\"P\":[\"POST\",{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/auth\/session\/extend\"}],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.OpenHelper\",\"P\":[{\"_type\":\"call\",\"N\":\"D2L.LP.Web.UI.Html.Dom.GetActiveElement\"},{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/auth\/session\/Expired?isLogout=0&isUsernamePasswordLogin=0&userId=203477\"}],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.OpenHelper\",\"P\":[{\"_type\":\"call\",\"N\":\"D2L.LP.Web.UI.Html.Dom.GetActiveElement\"},{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/auth\/session\/Expired?isLogout=1&isUsernamePasswordLogin=0&userId=203477\"}],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.InlineDialog\",\"P\":[null,{\"_type\":\"id\",\"Value\":\"d2l_1_0_138\"},\"Warning\",\"New User Session\",\"The current user session has changed, so the links and content on this page may not behave as expected.\",\"OK\",\"\",\"Close this Dialog\",\"d2l-dialog-inline-body-warning\",true,false,false],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.Inline.Abort\",\"P\":[{\"_type\":\"id\",\"Value\":\"d2l_1_0_138\"}]}]}";
+	D2L.O("__gctl_1",0)()
+	D2L.OR["__gctl_1"]["1"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.Authentication.Xsrf.Init\",\"P\":[\"d2l_referrer\",\"pxXZT77Mikuznxc7zUohQRaQ2laYBjeE\",16160706]}";
+	D2L.O("__gctl_1",1)()
+	D2L.OR["__gctl_1"]["2"]="{\"_type\":\"func\",\"N\":\"D2L.LP.ActivityBar.Init\",\"P\":[{\"_type\":\"url\",\"Url\":\"\/d2l\/activityFeed\/checkForNewAlerts\"},120]}";
+	D2L.O("__gctl_1",2)()
+	D2L.OR["__gctl_1"]["3"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.Controls.MessageArea.Init\",\"P\":[\"d2l_messagearea\",{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/validation\/errors\"}]}";
+	D2L.O("__gctl_1",3)()
+	D2L.OR["__gctl_1"]["4"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Globalization.Locale.Init\",\"P\":[{\"_type\":\"anon\",\"DecimalSeparator\":\".\",\"GroupSeparator\":\",\",\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"PercentSymbol\":\"%\",\"NegativeSign\":\"-\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"UseNativeDigits\":false,\"GroupSizes\":[3],\"IntegerRegex\":\"^([\\\\(-]*(([01234567890123456789]?[01234567890123456789]?([01234567890123456789](,[01234567890123456789][01234567890123456789][01234567890123456789])*)?))[\\\\)-]*)$|^([\\\\(-]*[01234567890123456789]+[\\\\)-]*)$\",\"DecimalRegex\":\"^([\\\\(-]*(([01234567890123456789]?[01234567890123456789]?([01234567890123456789](,[01234567890123456789][01234567890123456789][01234567890123456789])*)))(\\\\.[01234567890123456789]+)?[\\\\)-]*)$|^([\\\\(-]*[01234567890123456789]*\\\\.?[01234567890123456789]+[\\\\)-]*)$\"},{\"_type\":\"anon\",\"InputDateFormat\":\"M\/d\/yyyy\",\"Is24HourClock\":false,\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"UseNativeDigits\":false,\"TimeFormat\":\"h:mm tt\",\"AmDesignator\":\"AM\",\"PmDesignator\":\"PM\",\"FirstDayOfWeek\":0,\"ShortMonthNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"LongMonthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"],\"ShortDayOfWeekNames\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"]},{\"_type\":\"anon\",\"TextDirection\":1},{\"_type\":\"anon\",\"Culture\":\"en-us\"},{\"_type\":\"anon\",\"JustNow\":\"just now\",\"OneMinuteAgo\":\"1 minute ago\",\"TwoMinutesAgo\":\"2 minutes ago\",\"MinutesAgoMany\":\"[0] minutes ago\",\"OneHourAgo\":\"1 hour ago\",\"TwoHoursAgo\":\"2 hours ago\",\"ManyHoursAgo\":\"[0] hours ago\",\"YesterdayTime\":\"yesterday at [0]\",\"DayOfWeekTime\":\"[0] at [1]\",\"MonthDayTime\":\"[0] at [1]\",\"Now\":{\"_type\":\"D2L.LocalDateTime\",\"Year\":2024,\"Month\":1,\"Day\":6,\"Hour\":13,\"Minute\":28,\"Second\":51,\"Millisecond\":540}}]}";
+	D2L.O("__gctl_1",4)()
+	D2L.OR["__gctl_1"]["5"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Rpc.Initialize\",\"P\":[{\"_type\":\"url\",\"Url\":\"\/d2l\/login?target=%2fd2l%2flms%2fgrades%2fmy_grades%2fmain.d2l%3fou%3d692019&sessionExpired=1\"},\"Error: unable to complete your request.\",{\"_type\":\"D2L.LP.Util.Dictionary\"},{\"_type\":\"D2L.LP.Util.Dictionary\",\"flash\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.FlashMessages.RpcReceivePayloadProvider\"},\"session\":{\"_type\":\"func\",\"N\":\"D2L.PT.Auth.SessionTimeout.RpcReceivePayloadProvider\"},\"messageArea\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.Controls.MessageArea.RpcReceivePayloadProvider\"},\"OR\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.ObjectRepository.RpcReceivePayloadProvider\"},\"JS\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.JavaScript.RpcReceiveJsPayloadProvider\"},\"CSS\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.JavaScript.RpcReceiveCssPayloadProvider\"},\"BSI\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Bsi.RpcReceiveJsPayloadProvider\"},\"ariaMessages\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Aria.RpcReceivePayloadProvider\"}}]}";
+	D2L.O("__gctl_1",5)()
+	D2L.OR["__gctl_1"]["6"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.Controls.InlineHelp.Init\",\"P\":[{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/inlineHelp\/692019\/help\"}]}";
+	D2L.O("__gctl_1",6)()
+	D2L.OR["__gctl_2"] = {};
+	D2L.OR["__gctl_2"]["0"]="{\"_type\":\"pipe\",\"P\":[{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Rpc.Connect\",\"P\":[\"POST\",{\"_type\":\"url\",\"Url\":\"\/d2l\/Notifications\/DismissPulseBanner\"}],\"D\":true},{\"_type\":\"func\",\"N\":\"HidePulseBannerNew\"}]}";
+	D2L.OR["d2l_1_4_715"] = {};
+	D2L.OR["d2l_1_4_715"]["0"]="{\"_type\":\"D2L.LP.Web.UI.Html.PartialRendering.PartialHtmlRenderContext\",\"HeadingLevel\":2,\"ValidClassNames\":[],\"Scope\":\"\"}";
+	D2L.OR["d2l_1_5_781"] = {};
+	D2L.OR["d2l_1_5_781"]["0"]="{\"_type\":\"D2L.LP.Web.UI.Html.PartialRendering.PartialHtmlRenderContext\",\"HeadingLevel\":2,\"ValidClassNames\":[],\"Scope\":\"\"}";
+	D2L.OR["d2l_1_6_488"] = {};
+	D2L.OR["d2l_1_6_488"]["0"]="{\"_type\":\"D2L.LP.Web.UI.Html.PartialRendering.PartialHtmlRenderContext\",\"HeadingLevel\":2,\"ValidClassNames\":[],\"Scope\":\"\"}";
+	D2L.OR["d2l_1_7_709"] = {};
+	D2L.OR["d2l_1_7_709"]["0"]="{\"_type\":\"D2L.LP.Web.UI.Html.PartialRendering.PartialHtmlRenderContext\",\"HeadingLevel\":2,\"ValidClassNames\":[],\"Scope\":\"\"}";
+	D2L.OR["__gctl_73"] = {};
+	D2L.OR["__gctl_73"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.ReturnPoints.Set\",\"P\":[\"D2L.UXP.Profile.203477\"]}";
+	D2L.OR["__gctl_73"]["1"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.ReturnPoints.Set\",\"P\":[\"D2L.LP.Notification.Settings.692019\"]}";
+	D2L.OR["__gctl_73"]["2"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.ReturnPoints.Set\",\"P\":[\"D2L.UXP.Preferences.692019\"]}";
+	D2L.OR["__gctl_73"]["3"]="{\"_type\":\"pipe\",\"P\":[{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Rpc.Connect\",\"P\":[\"POST\",{\"_type\":\"call\",\"N\":\"D2L.LP.Web.Mvc.RouteLocation.Create\",\"P\":[\"\/d2l\/lp\/personalTools\/{orgUnitId}\/dropdownpartial\/updateLanguage\",{\"_type\":\"D2L.LP.Util.Dictionary\",\"newLocaleId\":{\"_type\":\"call\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.Open\",\"P\":[{\"_type\":\"id\",\"Value\":\"LocaleLinkId\"},{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/personalTools\/692019\/dropdownpartial\/language?currentLocaleId=0\"}],\"D\":true}},{\"_type\":\"D2L.LP.Util.Dictionary\",\"action\":\"LanguageDialog\"}]}],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.ReloadPage\"}]}";
+	D2L.OR["__gctl_73"]["4"]="{\"_type\":\"func\",\"N\":\"D2L.PT.Auth.Logout\",\"P\":[\"\/d2l\/logout\"]}";
+	D2L.OR["d2l_1_9_426"] = {};
+	D2L.OR["d2l_1_9_426"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/mycourses.stonybrook.edu\/d2l\/le\/content\/6686\/viewContent\/8378243\/View\",{\"_type\":\"url\",\"Url\":\"https:\/\/mycourses.stonybrook.edu\/d2l\/le\/content\/6686\/viewContent\/8378243\/View\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_10_287"] = {};
+	D2L.OR["d2l_1_10_287"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/mycourses.stonybrook.edu\/d2l\/le\/content\/6686\/viewContent\/8378243\/View\",{\"_type\":\"url\",\"Url\":\"https:\/\/mycourses.stonybrook.edu\/d2l\/le\/content\/6686\/viewContent\/8378243\/View\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_20_777"] = {};
+	D2L.OR["d2l_1_20_777"]["select"]="{\"_type\":\"func\",\"N\":\"PrintUserGrades\"}";
+	D2L.OR["__gctl_74"] = {};
+	D2L.OR["__gctl_74"]["0"]="{\"_type\":\"func\",\"N\":\"PrintUserGrades\"}";
+	function gotoGrades() { gotoEnterGrades(); }
+
+</script>
+<script>D2L.LP.Web.UI.Html.Bsi.Init('prod', 'https://s.brightspace.com/lib/webcomponentsjs/2.4.4/', 'https://s.brightspace.com/lib/regenerator-runtime/0.13.5/runtime.js', 'https://s.brightspace.com/lib/bsi/20.23.12-266/', ['unbundled/button-icon.js','unbundled/html-block.js','unbundled/d2l-table.js','unbundled/d2l-navigation.js','unbundled/d2l-navigation-main-header.js','unbundled/d2l-navigation-button-icon.js','unbundled/d2l-navigation-separator.js','unbundled/d2l-navigation-link-image.js','unbundled/d2l-navigation-dropdown-button-icon.js','unbundled/dropdown-content.js','unbundled/d2l-navigation-dropdown-button-custom.js','unbundled/d2l-profile-image-base.js','unbundled/d2l-navigation-main-footer.js','unbundled/dropdown.js','unbundled/dropdown-menu.js','unbundled/icon.js','unbundled/menu.js','unbundled/menu-item-link.js','unbundled/menu-item.js','unbundled/d2l-navigation-band.js','unbundled/dropdown-more.js','unbundled/button-subtle.js']);</script>
+</body>
+</html>
